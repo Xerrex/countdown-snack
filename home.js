@@ -1,18 +1,20 @@
+const root_url ="/js-snacks"
+
 const apps = [
     {
         name:"Meditation App",
         description: "App to play relaxing music for meditation.",
-        link:"/meditation-app/index.html"
+        link:"meditation-app/index.html"
     },
     {
         name: "Countdown App",
         description: "App to Countdown to when we eat together. Use the time format dd/mm/yyyy* ie 12/12/2021.",
-        link:"/countdown-app/index.html"
+        link:"countdown-app/index.html"
     },
     {
         name: "Rock Paper & Scissors",
         description: "This is the rock paper & scissors game.",
-        link:"/rps-game/index.html"
+        link:"rps-game/index.html"
     }
 ]
 
@@ -27,7 +29,7 @@ const js_snacks = ()=>{
                 <div class="card-content">
                     <h4 class="card-title">${app.name}</h4>
                     <p class="card-desc">${app.description}</p>
-                    <a class="button" href="${app.link}" 
+                    <a class="button" href="${root_url}/${app.link}"
                         target="_blank" 
                         rel="noreferrer noopener">Open</a>
                 </div>
