@@ -1,6 +1,6 @@
 # Rock Paper Scissors
 * This is the rock paper & scissors game.
-* [Go Back](../)
+* [Go Back](https://github.com/Xerrex/js-snacks)
 
 ## Game Defination
 * Rock: Clenched fist.
