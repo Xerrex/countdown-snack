@@ -1,0 +1,60 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Style Script', cursive;
+}
+
+.content-set{
+    display: flex;
+    justify-content: space-between;
+
+}
+
+#countdown_time_label{
+    padding: 0.5rem;
+    font-weight: bold;
+}
+
+#countdown_time_btn {
+    background-color: #4f4b88; 
+    border: none;
+    color: #dad4d4;
+    padding: 0.5rem;
+    margin-left: 0.5rem;
+    width: 6rem;
+    text-align: center;
+    text-decoration: none;
+    font-size: 16px;
+}
+
+h2{
+    font-size: 5rem;
+    font-weight: bold;
+    padding: 1.5rem;
+}
+
+.coming-soon{
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+.countdown{
+    display:flex;
+    justify-content: space-around;
+}
+
+.day, .hour, .minute, .second{
+    font-size: 3rem;
+}
+
+.eating-together{
+    height: 50vh;
+}
