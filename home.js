@@ -15,6 +15,11 @@ const apps = [
         name: "Rock Paper & Scissors",
         description: "This is the rock paper & scissors game.",
         link:"rps-game/index.html"
+    },
+    {
+        name: "Draggable Items",
+        description: "How to make items Draggable",
+        link:"draggable-items/index.html"
     }
 ]
 
@@ -29,9 +34,11 @@ const js_snacks = ()=>{
                 <div class="card-content">
                     <h4 class="card-title">${app.name}</h4>
                     <p class="card-desc">${app.description}</p>
-                    <a class="button" href="${root_url}/${app.link}"
-                        target="_blank" 
-                        rel="noreferrer noopener">Open</a>
+                    <div class="card-actions">
+                        <a class="card-button" href="${root_url}/${app.link}"
+                        target="_blank" rel="noreferrer noopener">Open</a>
+                    </div>
+                    
                 </div>
             </div>
             `;

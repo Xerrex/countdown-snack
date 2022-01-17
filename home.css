@@ -4,10 +4,9 @@
     box-sizing: border-box;
 }
 
-main{
-    height: 100vh;
+body{
+    height: 100%;
     background-color: rgb(107, 100, 167);
-    padding-top: 50px;
 }
 
 .header{
@@ -43,7 +42,8 @@ main{
         rgba(255, 255, 255, 0.7), 
         rgba(255, 255, 255, 0.3)
     );
-    width: auto;
+    height: 250px;
+    width: 300px;
     margin: 5px;
     padding: 10px;
 }
@@ -58,10 +58,10 @@ main{
     flex-direction: column;
     justify-content: space-between;
     align-items: center;
-
+    position:relative;
 }
 
-.button{
+.card-button{
     padding: 15px 40px;
     border:none;
     border-radius: 10px;
@@ -88,9 +88,18 @@ main{
     word-wrap: break-word;
 }
 
+.card-actions{
+    position: absolute;
+    top:150px;
+}
+
 @media (max-width:800px){
     .apps{
         flex-direction: column;
         justify-content: space-between;
+    }
+
+    .card{
+        width: 90%;
     }
 }
