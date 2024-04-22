@@ -15,12 +15,13 @@ const apps = [
         name: "Rock Paper & Scissors",
         description: "This is the rock paper & scissors game.",
         link:"rps-game/index.html"
-    },
-    {
-        name: "Draggable Items",
-        description: "How to make items Draggable",
-        link:"draggable-items/index.html"
     }
+    // ,
+    // {
+    //     name: "Draggable Items",
+    //     description: "How to make items Draggable",
+    //     link:"draggable-items/index.html"
+    // }
 ]
 
 
